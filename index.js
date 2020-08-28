@@ -10,7 +10,7 @@ app.get("/", (request, response) => {
 app.listen(process.env.PORT);
 
 
-// ===== O bot se inicializa aqui! =====
+// ===== O bot se inicializa aqui! ======
 const moment = require('moment');
 const Discord = require('discord.js');
 const bot = new Discord.Client();
