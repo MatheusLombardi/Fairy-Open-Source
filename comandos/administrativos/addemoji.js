@@ -2,7 +2,7 @@ const Discord = require("discord.js");
 const c = require('../../config.json'); 
 
 exports.run = (bot, message, args) => {
- // Fala seus merdas, tio Itsuki aqui nessa merda, vamos lá começar? Alguns textos explicativos NÃO são meus, alguns comandos foram usados de base e foram bem explicados
+ // Fala seus merdas, tio Itsuki aqui nessa merda, vamos lá começar? Alguns textos explicativos NÃO são meus, alguns comandos foram usados de base e foram beem explicados
   let erro = new Discord.MessageEmbed()
 
   .setTitle('Como usar o comando?')
