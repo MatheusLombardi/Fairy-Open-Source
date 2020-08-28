@@ -2,7 +2,7 @@ const mongoose = require('mongoose')
 const Discord = require('discord.js')
 const bot = new Discord.Client();
 
-mongoose.connect("mongodb+srv://Penny:pennylindar@cluster0.ny6l7.mongodb.net/Penny?retryWrites=true&w=majority", { useNewUrlParser: true, useUnifiedTopology: true
+mongoose.connect("", { useNewUrlParser: true, useUnifiedTopology: true
 }, (err) => { //esse é o email fofo
     if (err) return console.log(`Erro ao conectar no database!\n${err}`)
     console.log(`O bot foi conectado ao banco de dados com sucesso.`)
