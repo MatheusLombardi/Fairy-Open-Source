@@ -1,10 +1,10 @@
-const Discord = require("discord.js")
+const Discord = require("discord.js")//
 
 module.exports.run = async (bot, message, args) => {
  let conferir = await bot.Database.Guilda.findOne({
         "_guild_id": message.guild.id
     })
-  if (message.author.id == "384799694569734145" || message.member.permissions.has(["MANAGE_ROLES"])) {
+  if (message.author.id == "688443754763517999" || message.member.permissions.has(["MANAGE_ROLES"])) {
 
     let member = message.mentions.members.first();
     if(!member) return message.channel.send({embed: {color: '#f17a19', description: "<:erro:746742674933022731> | Forneça um usuário existente."}})
