@@ -12,7 +12,7 @@ module.exports.run = async (bot, message, args) => {
 
     let role = message.guild.roles.cache.find(r => r.name == args[1]) || message.guild.roles.cache.find(r => r.id == args[1]) || message.mentions.roles.first()
       if(!role) {
-        return message.channel.send({embed: {color: '#f17a19', description: "<:erro:746742674933022731> | Eu não tenho permissão o suficiente contra esse usuário."}})
+        return message.channel.send({embed: {color: '#f17a19', description: "<:erro:746742674933022731> | Eu não tenho permissão para dar um cargo a esse usuário."}})
       }  
       if(!message.guild.me.permissions.has(["MANAGE_ROLES"])) {
         return message.channel.send({embed: {color: '#f17a19', description: "<:erro:746742674933022731> | Você não tem permissão o suficiente para ceder esse cargo ao usuário."}})
