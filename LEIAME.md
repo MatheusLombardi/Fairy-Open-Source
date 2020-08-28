@@ -9,3 +9,7 @@ Sim, textinho básico, foda-se.
 
 
 ![alt text](https://cdn.discordapp.com/attachments/716129094819119125/748721625586991144/unknown.png)
+
+Agradecimentos: Dalhy, manteve-se até o final conosco ajudando a testar o Bot.
+
+((O bot não está completo, não SOU tão louco assim.))
