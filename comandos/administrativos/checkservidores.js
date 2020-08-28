@@ -2,7 +2,7 @@ const Discord = require('discord.js');
 var approx = require('approximate-number');
 
 module.exports.run = async (client, message, args) => {                
-     // Em baixo não se esqueça de configurar o seu ID.
+     // Em baixo não se esqueça de configurar o seu ID
     if (message.author.id == '361618620041789442' || message.author.id == '68844375476351799' || message.author.id == '' || message.author.id == '' || message.author.id == '') { 
 
 message.delete();
