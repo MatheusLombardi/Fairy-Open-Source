@@ -6,3 +6,6 @@ Então pessoal, eu decidi colocar meu bot pra open-source, NÃO completo. Eu esp
 comandos fracos, pra melhores. Adaptei permissões, indexei dentro de uma embed pra ficr tudo bonitinho e muito mais.
 
 Sim, textinho básico, foda-se.
+
+
+![alt text](https://cdn.discordapp.com/attachments/716129094819119125/748721625586991144/unknown.png)
